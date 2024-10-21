@@ -7,7 +7,7 @@ by Duff89 (https://github.com/Duff89)
 __version__ = 1.09
 
 import re
-
+import os
 import customtkinter
 
 import time
@@ -22,7 +22,6 @@ from notifiers.logging import NotificationHandler
 from parser_cls import AvitoParse
 
 customtkinter.set_appearance_mode("dark")
-
 
 class Window(customtkinter.CTk):
     def __init__(self):
